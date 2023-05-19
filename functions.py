@@ -10,7 +10,3 @@ def get_notes(filepath=FILEPATH):
 def write_notes(notes_arg, filepath=FILEPATH):
     with open(filepath, 'w') as doc:
         doc.writelines(notes_arg)
-
-
-if __name__ == "__main__":
-    print('main')
