@@ -1,4 +1,2 @@
 really first
-second var
-experiments
-change example
+more examples
