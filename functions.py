@@ -1,6 +1,7 @@
 FILEPATH = "smartlist.txt"
 FILEPATH_DONE = "done_task.txt"
 
+
 def get_tasks(filepath=FILEPATH):
     with open(filepath, 'r') as tasks_local:
         tasks_local = tasks_local.readlines()
